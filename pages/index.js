@@ -36,7 +36,7 @@ const CheckLogin = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className='hero'>Welcome to my site!</h1>
+      <h1 class="hero">Welcome to my site!</h1>
       <main className={styles.main}>
         <input
           type="text"
@@ -61,7 +61,7 @@ const CheckLogin = () => {
 
          />
 
-         <button type="submit" onClick={() => CheckLogin()}>Submit</button>
+         <button type="submit" class="button" onClick={() => CheckLogin()}>Submit</button>
         
       </main>
 
