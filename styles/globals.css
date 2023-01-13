@@ -25,3 +25,30 @@ a {
     background: black;
   }
 }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 10px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 0 18px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 175px;
+  margin-top: 30px;
+}
