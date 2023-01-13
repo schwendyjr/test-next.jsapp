@@ -36,7 +36,7 @@ const CheckLogin = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Welcome to my site!</h1>
+      <h1 className='hero'>Welcome to my site!</h1>
       <main className={styles.main}>
         <label>First Name:</label>
         <input

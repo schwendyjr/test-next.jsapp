@@ -131,3 +131,8 @@
 .background {
   background-color:#BDCFB5;
 }
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
