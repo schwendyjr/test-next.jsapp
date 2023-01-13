@@ -38,9 +38,9 @@ const CheckLogin = () => {
 
       <h1 className='hero'>Welcome to my site!</h1>
       <main className={styles.main}>
-        <label>First Name:</label>
         <input
           type="text"
+          placeholder='First Name'
           id="first"
           name="first"
           pattern="[A-Z]{1}[a-z]{2,10}"
@@ -48,9 +48,9 @@ const CheckLogin = () => {
           onChange={(e => setFormData({...formData, firstName: e.target.value}))}
           />
 
-        <label>Username:</label>
         <input
          type="text"
+         placeholder='Username'
          id="username"
          name="username"
          required
